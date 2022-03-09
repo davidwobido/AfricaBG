@@ -1,1 +1,14 @@
-{"name":"africa-bg","version":"0.1.0","dependencies":{"@frctl/fractal":"^1.5.13"},"scripts":{"fractal:start":"fractal start --sync","fractal:build":"fractal build"}}
+{
+  "name": "africa-bg",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.5.13"
+  },
+  "scripts": {
+    "fractal:start": "fractal start --sync",
+    "fractal:build": "fractal build"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
