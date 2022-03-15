@@ -1,0 +1,7 @@
+title: "Component test"
+status: wip
+
+context:
+  text: "Blockquotes test"
+  secondtext: "second p"
+  citation: "David"
