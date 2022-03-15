@@ -20,3 +20,13 @@
 .tertiary {
   background-color: $color-tertiary;
 }
+
+.text {
+  background-color: $color-text-primary;
+}
+
+.text-bright {
+  background-color: $color-text-bright;
+  border-color: $color-text-primary;
+  border-style: solid;
+}
