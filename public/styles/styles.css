@@ -1,9 +1,52 @@
-.blockquote {
-  color: blue;
+@font-face {
+  font-family: Bernina;
+  src: url("../fonts/Bernina/BerninaSans-Web-Regular-woff2.woff2"), format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Regular-woff.woff"), format("woff"), url("../fonts/Bernina/BerninaSans-Web-Regular-eot.eot"), format("eot");
 }
 
-.testcolor {
-  color: aqua;
+@font-face {
+  font-family: Bernina;
+  src: url("../fonts/Bernina/BerninaSans-Web-Bold-woff2.woff2"), format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Bold-woff.woff"), format("woff"), url("../fonts/Bernina/BerninaSans-Web-Bold-eot.eot"), format("eot");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Tiempos;
+  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff2.woff2"), format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff.woff"), format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-eot.eot"), format("eot");
+}
+
+@font-face {
+  font-family: Tiempos;
+  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff2.woff2"), format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff.woff"), format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-eot.eot"), format("eot");
+  font-weight: medium;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.primary {
+  background-color: #439f35;
+}
+
+.secondary {
+  background-color: #e18537;
+}
+
+.tertiary {
+  background-color: #79c7c3;
+}
+
+.blockquote {
+  color: blue;
 }
 
 *,
