@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.primary {
+  background-color: $color-primary;
+}
+
+.secondary {
+  background-color: $color-secondary;
+}
+
+.tertiary {
+  background-color: $color-tertiary;
+}
+
+.text {
+  background-color: $color-text-primary;
+}
+
+.text-bright {
+  background-color: $color-text-bright;
+  border-color: $color-text-primary;
+  border-style: solid;
+}
