@@ -1,0 +1,19 @@
+.button {
+  background-color: $color-secondary;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
+
+.button-text {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  color: $color-text-bright;
+}
