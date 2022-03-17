@@ -33,26 +33,36 @@
   border-radius: 50%;
 }
 
-.primary {
+.background--primary {
   background-color: #439f35;
 }
 
-.secondary {
+.background--secondary {
   background-color: #e18537;
 }
 
-.tertiary {
+.background--tertiary {
   background-color: #79c7c3;
 }
 
-.text {
-  background-color: #000;
+.text--primary {
+  color: #439f35;
 }
 
-.text-bright {
-  background-color: #fff;
-  border-color: #000;
-  border-style: solid;
+.text--secondary {
+  color: #e18537;
+}
+
+.text--tertiary {
+  color: #79c7c3;
+}
+
+.text--dark {
+  color: #000;
+}
+
+.text--bright {
+  color: #fff;
 }
 
 .blockquote {
@@ -122,6 +132,29 @@
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bernina";
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
 }
 
 *,
