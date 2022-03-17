@@ -1,7 +1,10 @@
-@import "./variables";
-@import "./fonts";
+@import "../fonts/fonts";
 @import "../../components/atoms/colors/colors";
+@import "../../components/atoms/colors/colors.variables";
 @import "../../components/test/blockquote";
+@import "../../components/atoms/button/button";
+@import "../../components/atoms/icon/icon";
+@import "../../components/atoms/heading/heading";
 
 *,
 *::after,

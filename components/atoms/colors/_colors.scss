@@ -9,24 +9,30 @@
   border-radius: 50%;
 }
 
-.primary {
+.background--primary {
   background-color: $color-primary;
 }
 
-.secondary {
+.background--secondary {
   background-color: $color-secondary;
 }
 
-.tertiary {
+.background--tertiary {
   background-color: $color-tertiary;
 }
 
-.text {
-  background-color: $color-text-primary;
+.text--primary {
+  color: $color-primary;
 }
-
-.text-bright {
-  background-color: $color-text-bright;
-  border-color: $color-text-primary;
-  border-style: solid;
+.text--secondary {
+  color: $color-secondary;
+}
+.text--tertiary {
+  color: $color-tertiary;
+}
+.text--dark {
+  color: $color-dark;
+}
+.text--bright {
+  color: $color-bright;
 }

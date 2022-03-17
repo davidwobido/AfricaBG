@@ -1,22 +1,22 @@
 @font-face {
-  font-family: Bernina;
-  src: url("../fonts/Bernina/BerninaSans-Web-Regular-woff2.woff2"), format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Regular-woff.woff"), format("woff"), url("../fonts/Bernina/BerninaSans-Web-Regular-eot.eot"), format("eot");
+  font-family: "Bernina";
+  src: url("../fonts/Bernina/BerninaSans-Web-Regular-woff2.woff2") format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Regular-woff.woff") format("woff"), url("../fonts/Bernina/BerninaSans-Web-Regular-eot.eot") format("eot");
 }
 
 @font-face {
-  font-family: Bernina;
-  src: url("../fonts/Bernina/BerninaSans-Web-Bold-woff2.woff2"), format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Bold-woff.woff"), format("woff"), url("../fonts/Bernina/BerninaSans-Web-Bold-eot.eot"), format("eot");
+  font-family: "Bernina";
+  src: url("../fonts/Bernina/BerninaSans-Web-Bold-woff2.woff2") format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Bold-woff.woff") format("woff"), url("../fonts/Bernina/BerninaSans-Web-Bold-eot.eot") format("eot");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: Tiempos;
-  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff2.woff2"), format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff.woff"), format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-eot.eot"), format("eot");
+  font-family: "Tiempos";
+  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff2.woff2") format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-eot.eot") format("eot");
 }
 
 @font-face {
-  font-family: Tiempos;
-  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff2.woff2"), format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff.woff"), format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-eot.eot"), format("eot");
+  font-family: "Tiempos";
+  src: url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff2.woff2") format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-eot.eot") format("eot");
   font-weight: medium;
 }
 
@@ -33,30 +33,128 @@
   border-radius: 50%;
 }
 
-.primary {
+.background--primary {
   background-color: #439f35;
 }
 
-.secondary {
+.background--secondary {
   background-color: #e18537;
 }
 
-.tertiary {
+.background--tertiary {
   background-color: #79c7c3;
 }
 
-.text {
-  background-color: #000;
+.text--primary {
+  color: #439f35;
 }
 
-.text-bright {
-  background-color: #fff;
-  border-color: #000;
-  border-style: solid;
+.text--secondary {
+  color: #e18537;
+}
+
+.text--tertiary {
+  color: #79c7c3;
+}
+
+.text--dark {
+  color: #000;
+}
+
+.text--bright {
+  color: #fff;
 }
 
 .blockquote {
   color: blue;
+}
+
+.button {
+  background-color: #e18537;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #439f35;
+}
+
+.button-text {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  color: #fff;
+}
+
+.icon {
+  max-width: 3rem;
+}
+
+.icon--arrow-left .a,
+.icon--arrow-left .b {
+  fill: none;
+  stroke: #439f35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon--arrow-left .a {
+  stroke-width: 3.011px;
+}
+
+.icon--arrow-left .b {
+  stroke-width: 3.085px;
+}
+
+.icon--arrow-right .a {
+  fill: none;
+  stroke: #439f35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.icon--calendar .a {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+.icon--pause .a {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bernina";
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
 }
 
 *,
