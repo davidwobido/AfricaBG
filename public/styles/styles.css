@@ -80,6 +80,50 @@
   color: #fff;
 }
 
+.icon {
+  max-width: 3rem;
+}
+
+.icon--arrow-left .a,
+.icon--arrow-left .b {
+  fill: none;
+  stroke: #439f35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon--arrow-left .a {
+  stroke-width: 3.011px;
+}
+
+.icon--arrow-left .b {
+  stroke-width: 3.085px;
+}
+
+.icon--arrow-right .a {
+  fill: none;
+  stroke: #439f35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.icon--calendar .a {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+.icon--pause .a {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
 *,
 *::after,
 *::before {
