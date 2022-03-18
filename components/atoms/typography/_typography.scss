@@ -85,10 +85,17 @@ h4 {
   line-height: 1.5rem;
 }
 
+.text--preline__small {
+  font-family: $Bernina;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text--large-number {
   font-family: $Bernina;
-  font-size: 7.5rem;
   font-weight: bold;
+  font-size: 7.5rem;
   color: $color-bright;
   letter-spacing: -0.15rem;
 }
