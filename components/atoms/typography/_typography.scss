@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+}
+
+$Bernina: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+$Tiempos: "Tiempos", "Times New Roman", Times, serif;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $Bernina;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.035rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.0125rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.text--intro {
+  font-family: $Bernina;
+  font-size: 1.75rem;
+  color: $color-bright;
+}
+
+.text--button {
+  font-family: $Bernina;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  color: $color-bright;
+}
+
+.text--source {
+  font-family: $Bernina;
+  font-size: 0.9375rem;
+  color: $color-bright;
+}
+
+.text--xxl {
+  font-family: $Bernina;
+  font-size: 3.5rem;
+}
+
+.text--slider-intro {
+  font-family: $Tiempos;
+}
