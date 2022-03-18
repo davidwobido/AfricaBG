@@ -7,6 +7,10 @@ a {
   margin: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 $Bernina: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
 $Tiempos: "Tiempos", "Times New Roman", Times, serif;
 
@@ -29,6 +33,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  color: $color-primary;
 }
 
 h4 {
@@ -55,11 +60,52 @@ h4 {
   color: $color-bright;
 }
 
-.text--xxl {
+.text--wizard,
+.text--wizard--link {
   font-family: $Bernina;
   font-size: 3.5rem;
+  line-height: 6.5rem;
 }
 
-.text--slider-intro {
+.text--wizard--link {
+  border-bottom: 0.125rem solid $color-primary;
+}
+
+.text--body {
   font-family: $Tiempos;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.text--body__small {
+  font-family: $Bernina;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.text--large-number {
+  font-family: $Bernina;
+  font-size: 7.5rem;
+  font-weight: bold;
+  color: $color-bright;
+  letter-spacing: -0.15rem;
+}
+
+.text--counter {
+  font-family: $Bernina;
+  font-size: 1.5rem;
+}
+
+.text--separate-link {
+  font-family: $Bernina;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: 0.15s;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 0.0625rem solid $color-dark;
+  }
 }

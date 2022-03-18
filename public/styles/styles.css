@@ -6,18 +6,19 @@
 @font-face {
   font-family: "Bernina";
   src: url("../fonts/Bernina/BerninaSans-Web-Bold-woff2.woff2") format("woff2"), url("../fonts/Bernina/BerninaSans-Web-Bold-woff.woff") format("woff"), url("../fonts/Bernina/BerninaSans-Web-Bold-eot.eot") format("eot");
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "Tiempos";
   src: url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff2.woff2") format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Regular-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Regular-eot.eot") format("eot");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Tiempos";
   src: url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff2.woff2") format("woff2"), url(".../fonts/Tiempos/TiemposHeadlineWeb-Medium-woff.woff") format("woff"), url("../fonts/Tiempos/TiemposHeadlineWeb-Medium-eot.eot") format("eot");
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .list {
@@ -135,6 +136,10 @@ a {
   margin: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -154,6 +159,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  color: #439f35;
 }
 
 h4 {
@@ -180,13 +186,55 @@ h4 {
   color: #fff;
 }
 
-.text--xxl {
+.text--wizard,
+.text--wizard--link {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 3.5rem;
+  line-height: 6.5rem;
 }
 
-.text--slider-intro {
+.text--wizard--link {
+  border-bottom: 0.125rem solid #439f35;
+}
+
+.text--body {
   font-family: "Tiempos", "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.text--body__small {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.text--large-number {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-size: 7.5rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.15rem;
+}
+
+.text--counter {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-size: 1.5rem;
+}
+
+.text--separate-link {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.text--separate-link:hover {
+  border-bottom: 0.0625rem solid #000;
 }
 
 *,
