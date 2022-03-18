@@ -4,28 +4,13 @@
 @import "../../components/test/blockquote";
 @import "../../components/atoms/button/button";
 @import "../../components/atoms/icon/icon";
-@import "../../components/atoms/heading/heading";
+@import "../../components/atoms/typography/typography";
 
 *,
 *::after,
 *::before {
   margin: 0;
   box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  margin: 0;
-}
-
-p {
-  color: aquamarine;
 }
 
 body {
