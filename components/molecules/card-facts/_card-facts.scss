@@ -1,0 +1,60 @@
+.card--facts {
+  width: 20.25rem;
+}
+
+.card--facts__number {
+  padding: 1.5rem;
+}
+.card--facts__text {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.card--facts--primary {
+  background-color: $color-primary;
+
+  .card--facts__color-bar {
+    div {
+      background-color: $color-primary;
+    }
+  }
+}
+
+.card--facts--secondary {
+  background-color: $color-secondary;
+  .card--facts__color-bar {
+    div {
+      background-color: $color-secondary;
+    }
+  }
+}
+
+.card--tertiary {
+  background-color: $color-tertiary;
+  .card--facts__color-bar {
+    div {
+      background-color: $color-tertiary;
+    }
+  }
+}
+
+.card--facts__color-bar {
+  position: relative;
+  content: "";
+
+  div {
+    position: absolute;
+    height: 2rem;
+    opacity: 25%;
+  }
+
+  :first-child {
+    width: 100%;
+  }
+
+  :nth-child(2) {
+    width: 90%;
+  }
+  :nth-child(3) {
+    width: 80%;
+  }
+}

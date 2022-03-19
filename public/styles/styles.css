@@ -164,6 +164,7 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
+  color: #fff;
 }
 
 .text--intro {
@@ -261,6 +262,65 @@ h4 {
 
 .card__text {
   padding: 1rem;
+}
+
+.card--facts {
+  width: 20.25rem;
+}
+
+.card--facts__number {
+  padding: 1.5rem;
+}
+
+.card--facts__text {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.card--facts--primary {
+  background-color: #439f35;
+}
+
+.card--facts--primary .card--facts__color-bar div {
+  background-color: #439f35;
+}
+
+.card--facts--secondary {
+  background-color: #e18537;
+}
+
+.card--facts--secondary .card--facts__color-bar div {
+  background-color: #e18537;
+}
+
+.card--tertiary {
+  background-color: #79c7c3;
+}
+
+.card--tertiary .card--facts__color-bar div {
+  background-color: #79c7c3;
+}
+
+.card--facts__color-bar {
+  position: relative;
+  content: "";
+}
+
+.card--facts__color-bar div {
+  position: absolute;
+  height: 2rem;
+  opacity: 25%;
+}
+
+.card--facts__color-bar :first-child {
+  width: 100%;
+}
+
+.card--facts__color-bar :nth-child(2) {
+  width: 90%;
+}
+
+.card--facts__color-bar :nth-child(3) {
+  width: 80%;
 }
 
 *,
