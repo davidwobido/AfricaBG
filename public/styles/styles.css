@@ -246,6 +246,9 @@ h4 {
 
 .card {
   width: 20.25rem;
+}
+
+.card--highlight {
   background-color: #ededed;
 }
 
