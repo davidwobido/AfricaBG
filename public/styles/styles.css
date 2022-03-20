@@ -393,6 +393,41 @@ h4 {
   color: #fff;
 }
 
+.section-header {
+  padding-bottom: 3rem;
+}
+
+.section-header div {
+  width: 4rem;
+  border-top: 0.09375rem solid #439f35;
+}
+
+.section-header div,
+.section-header h2 {
+  padding-bottom: 2rem;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pagination svg {
+  width: 1.5rem;
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
+  margin: 0 0 0 0.85rem;
+}
+
+.pagination a {
+  color: #000;
+  text-decoration: none;
+}
+
 *,
 *::after,
 *::before {

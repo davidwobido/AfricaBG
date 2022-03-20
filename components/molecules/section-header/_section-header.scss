@@ -1,0 +1,13 @@
+.section-header {
+  padding-bottom: 3rem;
+
+  div {
+    width: 4rem;
+    border-top: 0.09375rem solid $color-primary;
+  }
+
+  div,
+  h2 {
+    padding-bottom: 2rem;
+  }
+}

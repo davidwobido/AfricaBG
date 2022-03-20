@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  svg {
+    width: 1.5rem;
+    transform: translateY(0.1rem);
+    margin: 0 0 0 0.85rem;
+  }
+  a {
+    color: $color-dark;
+    text-decoration: none;
+  }
+}
