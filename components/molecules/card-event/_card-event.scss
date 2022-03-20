@@ -1,0 +1,40 @@
+.card--event {
+  width: 28rem;
+  padding: 1.5rem;
+}
+
+.card--event__header {
+  margin-bottom: 2.5rem;
+  display: grid;
+
+  span {
+    display: block;
+  }
+
+  svg {
+    width: 1rem;
+    justify-self: end;
+  }
+}
+
+.card--event__text-block {
+  span {
+    display: block;
+  }
+
+  * {
+    padding-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: underline $color-primary;
+  }
+}
+
+.card--event--highlight {
+  background-color: $color-primary;
+
+  * {
+    color: $color-bright;
+  }
+}

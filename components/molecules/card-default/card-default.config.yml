@@ -1,0 +1,8 @@
+title: Card
+status: wip
+
+context:
+  Image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+  Preline: "this is a Preline"
+  Headline: "I am the Headline"
+  Copy: "Copy / Body text Lorem Ipsum some more text."

@@ -1,0 +1,24 @@
+title: Card-Facts
+status: wip
+
+context:
+  copy: "3,51 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
+  number: "3,5"
+  color: "primary"
+
+variants:
+  - name: Secondary
+    context:
+      color: "secondary"
+      number: "10"
+      copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
+  - name: Ocean
+    context:
+      color: "ocean"
+      number: "100"
+      copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
+  - name: Coffee
+    context:
+      color: "coffee"
+      number: "0,1"
+      copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"

@@ -1,0 +1,13 @@
+.card {
+  width: 20.25rem;
+}
+
+.card__image {
+  width: 100%;
+  max-height: 11.375rem;
+  object-fit: cover;
+}
+
+.card__text {
+  padding: 1rem;
+}

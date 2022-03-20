@@ -42,8 +42,16 @@
   background-color: #e18537;
 }
 
-.background--tertiary {
+.background--ocean {
   background-color: #79c7c3;
+}
+
+.background--coffee {
+  background-color: #2e271a;
+}
+
+.background--edison {
+  background-color: #ededed;
 }
 
 .text--primary {
@@ -54,8 +62,12 @@
   color: #e18537;
 }
 
-.text--tertiary {
+.text--ocean {
   color: #79c7c3;
+}
+
+.text--coffee {
+  color: #2e271a;
 }
 
 .text--dark {
@@ -64,6 +76,10 @@
 
 .text--bright {
   color: #fff;
+}
+
+.text--wolf {
+  color: #5a5a5a;
 }
 
 .blockquote {
@@ -113,7 +129,7 @@
 
 .icon--calendar .a {
   fill: none;
-  stroke: #000;
+  stroke: #439f35;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2px;
@@ -164,6 +180,7 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
+  color: #fff;
 }
 
 .text--intro {
@@ -211,10 +228,17 @@ h4 {
   line-height: 1.5rem;
 }
 
+.text--microtext {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text--large-number {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
-  font-size: 7.5rem;
   font-weight: bold;
+  font-size: 7.5rem;
   color: #fff;
   letter-spacing: -0.15rem;
 }
@@ -235,6 +259,138 @@ h4 {
 
 .text--separate-link:hover {
   border-bottom: 0.0625rem solid #000;
+}
+
+.text--regular {
+  font-weight: 400;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.card {
+  width: 20.25rem;
+}
+
+.card__image {
+  width: 100%;
+  max-height: 11.375rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__text {
+  padding: 1rem;
+}
+
+.card--facts {
+  width: 20.25rem;
+}
+
+.card--facts__number {
+  padding: 1.5rem;
+}
+
+.card--facts__text {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.card--facts--primary {
+  background-color: #439f35;
+}
+
+.card--facts--primary .card--facts__color-bar div {
+  background-color: #439f35;
+}
+
+.card--facts--secondary {
+  background-color: #e18537;
+}
+
+.card--facts--secondary .card--facts__color-bar div {
+  background-color: #e18537;
+}
+
+.card--facts--ocean {
+  background-color: #79c7c3;
+}
+
+.card--facts--ocean .card--facts__color-bar div {
+  background-color: #79c7c3;
+}
+
+.card--facts--coffee {
+  background-color: #2e271a;
+}
+
+.card--facts--coffee .card--facts__color-bar div {
+  background-color: #2e271a;
+}
+
+.card--facts__color-bar {
+  position: relative;
+  content: "";
+}
+
+.card--facts__color-bar div {
+  position: absolute;
+  height: 2rem;
+  opacity: 25%;
+}
+
+.card--facts__color-bar :first-child {
+  width: 100%;
+}
+
+.card--facts__color-bar :nth-child(2) {
+  width: 90%;
+}
+
+.card--facts__color-bar :nth-child(3) {
+  width: 80%;
+}
+
+.card--event {
+  width: 28rem;
+  padding: 1.5rem;
+}
+
+.card--event__header {
+  margin-bottom: 2.5rem;
+  display: -ms-grid;
+  display: grid;
+}
+
+.card--event__header span {
+  display: block;
+}
+
+.card--event__header svg {
+  width: 1rem;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.card--event__text-block span {
+  display: block;
+}
+
+.card--event__text-block * {
+  padding-bottom: 1rem;
+}
+
+.card--event__text-block a {
+  -webkit-text-decoration: underline #439f35;
+          text-decoration: underline #439f35;
+}
+
+.card--event--highlight {
+  background-color: #439f35;
+}
+
+.card--event--highlight * {
+  color: #fff;
 }
 
 *,

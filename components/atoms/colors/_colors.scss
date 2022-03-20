@@ -1,8 +1,11 @@
 $color-primary: #439f35;
 $color-secondary: #e18537;
-$color-tertiary: #79c7c3;
+$color-ocean: #79c7c3;
+$color-coffee: #2e271a;
 $color-dark: #000;
 $color-bright: #fff;
+$color-wolf: #5a5a5a;
+$color-edison: #ededed;
 
 .list {
   display: flex;
@@ -18,13 +21,17 @@ $color-bright: #fff;
 .background--primary {
   background-color: $color-primary;
 }
-
 .background--secondary {
   background-color: $color-secondary;
 }
-
-.background--tertiary {
-  background-color: $color-tertiary;
+.background--ocean {
+  background-color: $color-ocean;
+}
+.background--coffee {
+  background-color: $color-coffee;
+}
+.background--edison {
+  background-color: $color-edison;
 }
 
 .text--primary {
@@ -33,12 +40,19 @@ $color-bright: #fff;
 .text--secondary {
   color: $color-secondary;
 }
-.text--tertiary {
-  color: $color-tertiary;
+.text--ocean {
+  color: $color-ocean;
+}
+.text--coffee {
+  color: $color-coffee;
 }
 .text--dark {
   color: $color-dark;
 }
 .text--bright {
   color: $color-bright;
+}
+
+.text--wolf {
+  color: $color-wolf;
 }
