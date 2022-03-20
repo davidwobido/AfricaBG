@@ -407,6 +407,27 @@ h4 {
   padding-bottom: 2rem;
 }
 
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pagination svg {
+  width: 1.5rem;
+  -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
+  margin: 0 0 0 0.85rem;
+}
+
+.pagination a {
+  color: #000;
+  text-decoration: none;
+}
+
 *,
 *::after,
 *::before {
