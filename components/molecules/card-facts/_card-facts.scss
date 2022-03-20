@@ -28,11 +28,19 @@
   }
 }
 
-.card--tertiary {
-  background-color: $color-tertiary;
+.card--facts--ocean {
+  background-color: $color-ocean;
   .card--facts__color-bar {
     div {
-      background-color: $color-tertiary;
+      background-color: $color-ocean;
+    }
+  }
+}
+.card--facts--coffee {
+  background-color: $color-coffee;
+  .card--facts__color-bar {
+    div {
+      background-color: $color-coffee;
     }
   }
 }

@@ -42,8 +42,12 @@
   background-color: #e18537;
 }
 
-.background--tertiary {
+.background--ocean {
   background-color: #79c7c3;
+}
+
+.background--coffee {
+  background-color: #2e271a;
 }
 
 .text--primary {
@@ -54,8 +58,12 @@
   color: #e18537;
 }
 
-.text--tertiary {
+.text--ocean {
   color: #79c7c3;
+}
+
+.text--coffee {
+  color: #2e271a;
 }
 
 .text--dark {
@@ -292,12 +300,20 @@ h4 {
   background-color: #e18537;
 }
 
-.card--tertiary {
+.card--facts--ocean {
   background-color: #79c7c3;
 }
 
-.card--tertiary .card--facts__color-bar div {
+.card--facts--ocean .card--facts__color-bar div {
   background-color: #79c7c3;
+}
+
+.card--facts--coffee {
+  background-color: #2e271a;
+}
+
+.card--facts--coffee .card--facts__color-bar div {
+  background-color: #2e271a;
 }
 
 .card--facts__color-bar {
