@@ -4,6 +4,8 @@ $color-ocean: #79c7c3;
 $color-coffee: #2e271a;
 $color-dark: #000;
 $color-bright: #fff;
+$color-wolf: #5a5a5a;
+$color-edison: #ededed;
 
 .list {
   display: flex;
@@ -28,6 +30,9 @@ $color-bright: #fff;
 .background--coffee {
   background-color: $color-coffee;
 }
+.background--edison {
+  background-color: $color-edison;
+}
 
 .text--primary {
   color: $color-primary;
@@ -46,4 +51,8 @@ $color-bright: #fff;
 }
 .text--bright {
   color: $color-bright;
+}
+
+.text--wolf {
+  color: $color-wolf;
 }

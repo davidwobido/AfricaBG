@@ -50,6 +50,10 @@
   background-color: #2e271a;
 }
 
+.background--edison {
+  background-color: #ededed;
+}
+
 .text--primary {
   color: #439f35;
 }
@@ -72,6 +76,10 @@
 
 .text--bright {
   color: #fff;
+}
+
+.text--wolf {
+  color: #5a5a5a;
 }
 
 .blockquote {
@@ -253,12 +261,16 @@ h4 {
   border-bottom: 0.0625rem solid #000;
 }
 
-.card {
-  width: 20.25rem;
+.text--regular {
+  font-weight: 400;
 }
 
-.card--highlight {
-  background-color: #ededed;
+.text--bold {
+  font-weight: bold;
+}
+
+.card {
+  width: 20.25rem;
 }
 
 .card__image {
@@ -337,6 +349,40 @@ h4 {
 
 .card--facts__color-bar :nth-child(3) {
   width: 80%;
+}
+
+.card--event {
+  width: 28rem;
+  padding: 1.5rem;
+}
+
+.card--event__header {
+  margin-bottom: 2.5rem;
+  display: -ms-grid;
+  display: grid;
+}
+
+.card--event__header span {
+  display: block;
+}
+
+.card--event__header svg {
+  width: 1rem;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.card--event__text-block span {
+  display: block;
+}
+
+.card--event__text-block * {
+  padding-bottom: 1rem;
+}
+
+.card--event__text-block a {
+  -webkit-text-decoration: underline #439f35;
+          text-decoration: underline #439f35;
 }
 
 *,
