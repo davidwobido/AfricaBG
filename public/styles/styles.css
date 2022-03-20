@@ -385,6 +385,14 @@ h4 {
           text-decoration: underline #439f35;
 }
 
+.card--event--highlight {
+  background-color: #439f35;
+}
+
+.card--event--highlight * {
+  color: #fff;
+}
+
 *,
 *::after,
 *::before {
