@@ -18,41 +18,40 @@ $color-edison: #ededed;
   border-radius: 50%;
 }
 
-.background--primary {
+.background-color--primary {
   background-color: $color-primary;
 }
-.background--secondary {
+.background-color--secondary {
   background-color: $color-secondary;
 }
-.background--ocean {
+.background-color--ocean {
   background-color: $color-ocean;
 }
-.background--coffee {
+.background-color--coffee {
   background-color: $color-coffee;
 }
-.background--edison {
+.background-color--edison {
   background-color: $color-edison;
 }
 
-.text--primary {
+.text-color--primary {
   color: $color-primary;
 }
-.text--secondary {
+.text-color--secondary {
   color: $color-secondary;
 }
-.text--ocean {
+.text-color--ocean {
   color: $color-ocean;
 }
-.text--coffee {
+.text-color--coffee {
   color: $color-coffee;
 }
-.text--dark {
+.text-color--dark {
   color: $color-dark;
 }
-.text--bright {
+.text-color--bright {
   color: $color-bright;
 }
-
-.text--wolf {
+.text-color--wolf {
   color: $color-wolf;
 }

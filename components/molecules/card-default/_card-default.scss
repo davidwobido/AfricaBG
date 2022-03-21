@@ -1,13 +1,16 @@
-.card {
+.card-default {
   width: 20.25rem;
 }
 
-.card__image {
+.card-default--highlight {
+  background-color: $color-edison;
+}
+.card-default__image {
   width: 100%;
   max-height: 11.375rem;
   object-fit: cover;
 }
 
-.card__text {
+.card-default__text {
   padding: 1rem;
 }

@@ -1,8 +1,4 @@
-.icon {
-  max-width: 3rem;
-}
-
-.icon--arrow-left {
+.icon-arrow-left {
   .a,
   .b {
     fill: none;
@@ -18,7 +14,7 @@
   }
 }
 
-.icon--arrow-right {
+.icon-arrow-right {
   .a {
     fill: none;
     stroke: $color-primary;
@@ -28,7 +24,7 @@
   }
 }
 
-.icon--calendar {
+.icon-calendar {
   .a {
     fill: none;
     stroke: $color-primary;
@@ -36,9 +32,14 @@
     stroke-linejoin: round;
     stroke-width: 2px;
   }
+  &--white {
+    .a {
+      stroke: $color-bright;
+    }
+  }
 }
 
-.icon--pause {
+.icon-pause {
   .a {
     fill: none;
     stroke: $color-dark;
