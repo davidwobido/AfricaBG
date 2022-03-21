@@ -1,51 +1,55 @@
-.card--facts {
+.card-facts {
   width: 20.25rem;
 }
 
-.card--facts__number {
+.card-facts__number {
   padding: 1.5rem;
 }
-.card--facts__text {
+.card-facts__text {
   padding: 0 1.5rem 1.5rem;
 }
 
-.card--facts--primary {
+.card-facts--primary {
   background-color: $color-primary;
 
-  .card--facts__color-bar {
+  .card-facts__color-bar {
     div {
       background-color: $color-primary;
     }
   }
 }
 
-.card--facts--secondary {
+.card-facts--secondary {
   background-color: $color-secondary;
-  .card--facts__color-bar {
+
+  .card-facts__color-bar {
     div {
       background-color: $color-secondary;
     }
   }
 }
 
-.card--facts--ocean {
+.card-facts--ocean {
   background-color: $color-ocean;
-  .card--facts__color-bar {
+
+  .card-facts__color-bar {
     div {
       background-color: $color-ocean;
     }
   }
 }
-.card--facts--coffee {
+
+.card-facts--coffee {
   background-color: $color-coffee;
-  .card--facts__color-bar {
+
+  .card-facts__color-bar {
     div {
       background-color: $color-coffee;
     }
   }
 }
 
-.card--facts__color-bar {
+.card-facts__color-bar {
   position: relative;
   content: "";
 

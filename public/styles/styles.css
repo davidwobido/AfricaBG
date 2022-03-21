@@ -299,112 +299,112 @@ h4 {
   padding: 1rem;
 }
 
-.card--facts {
+.card-facts {
   width: 20.25rem;
 }
 
-.card--facts__number {
+.card-facts__number {
   padding: 1.5rem;
 }
 
-.card--facts__text {
+.card-facts__text {
   padding: 0 1.5rem 1.5rem;
 }
 
-.card--facts--primary {
+.card-facts--primary {
   background-color: #439f35;
 }
 
-.card--facts--primary .card--facts__color-bar div {
+.card-facts--primary .card-facts__color-bar div {
   background-color: #439f35;
 }
 
-.card--facts--secondary {
+.card-facts--secondary {
   background-color: #e18537;
 }
 
-.card--facts--secondary .card--facts__color-bar div {
+.card-facts--secondary .card-facts__color-bar div {
   background-color: #e18537;
 }
 
-.card--facts--ocean {
+.card-facts--ocean {
   background-color: #79c7c3;
 }
 
-.card--facts--ocean .card--facts__color-bar div {
+.card-facts--ocean .card-facts__color-bar div {
   background-color: #79c7c3;
 }
 
-.card--facts--coffee {
+.card-facts--coffee {
   background-color: #2e271a;
 }
 
-.card--facts--coffee .card--facts__color-bar div {
+.card-facts--coffee .card-facts__color-bar div {
   background-color: #2e271a;
 }
 
-.card--facts__color-bar {
+.card-facts__color-bar {
   position: relative;
   content: "";
 }
 
-.card--facts__color-bar div {
+.card-facts__color-bar div {
   position: absolute;
   height: 2rem;
   opacity: 25%;
 }
 
-.card--facts__color-bar :first-child {
+.card-facts__color-bar :first-child {
   width: 100%;
 }
 
-.card--facts__color-bar :nth-child(2) {
+.card-facts__color-bar :nth-child(2) {
   width: 90%;
 }
 
-.card--facts__color-bar :nth-child(3) {
+.card-facts__color-bar :nth-child(3) {
   width: 80%;
 }
 
-.card--event {
+.card-event {
   width: 28rem;
   padding: 1.5rem;
 }
 
-.card--event__header {
+.card-event__header {
   margin-bottom: 2.5rem;
   display: -ms-grid;
   display: grid;
 }
 
-.card--event__header span {
+.card-event__header span {
   display: block;
 }
 
-.card--event__header svg {
+.card-event__header svg {
   width: 1rem;
   -ms-grid-column-align: end;
       justify-self: end;
 }
 
-.card--event__text-block span {
+.card-event__text-block span {
   display: block;
 }
 
-.card--event__text-block * {
+.card-event__text-block * {
   padding-bottom: 1rem;
 }
 
-.card--event__text-block a {
+.card-event__text-block a {
   -webkit-text-decoration: underline #439f35;
           text-decoration: underline #439f35;
 }
 
-.card--event--highlight {
+.card-event--highlight {
   background-color: #439f35;
 }
 
-.card--event--highlight * {
+.card-event--highlight * {
   color: #fff;
 }
 
