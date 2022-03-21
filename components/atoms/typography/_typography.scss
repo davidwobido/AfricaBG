@@ -41,13 +41,13 @@ h4 {
   color: $color-bright;
 }
 
-.text--intro {
+.text-intro {
   font-family: $Bernina;
   font-size: 1.75rem;
   color: $color-bright;
 }
 
-.text--button {
+.text-button {
   font-family: $Bernina;
   font-size: 1.125rem;
   text-transform: uppercase;
@@ -55,45 +55,52 @@ h4 {
   color: $color-bright;
 }
 
-.text--source {
+.text-source {
   font-family: $Bernina;
   font-size: 0.9375rem;
   color: $color-bright;
 }
 
-.text--wizard,
-.text--wizard--link {
+.text-wizard,
+.text-wizard__link {
   font-family: $Bernina;
   font-size: 3.5rem;
   line-height: 6.5rem;
 }
 
-.text--wizard--link {
+.text-wizard__link {
   border-bottom: 0.125rem solid $color-primary;
 }
 
-.text--body {
+.text-body {
   font-family: $Tiempos;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-.text--body__small {
+.text-body-small {
   font-family: $Bernina;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
-.text--microtext {
+.text-microtext {
   font-family: $Bernina;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
+
+  &__bold {
+    font-family: $Bernina;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
-.text--large-number {
+.text-large-number {
   font-family: $Bernina;
   font-weight: bold;
   font-size: 7.5rem;
@@ -101,12 +108,16 @@ h4 {
   letter-spacing: -0.15rem;
 }
 
-.text--counter {
+.text-counter {
   font-family: $Bernina;
   font-size: 1.5rem;
+
+  &--bold {
+    font-weight: bold;
+  }
 }
 
-.text--separate-link {
+.text-separate-link {
   font-family: $Bernina;
   font-size: 1.5rem;
   font-weight: 700;

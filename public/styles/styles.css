@@ -99,10 +99,6 @@
   background-color: #439f35;
 }
 
-.icon {
-  max-width: 3rem;
-}
-
 .icon-arrow-left .a,
 .icon-arrow-left .b {
   fill: none;
@@ -129,7 +125,7 @@
 
 .icon-calendar .a {
   fill: none;
-  stroke: #e18537;
+  stroke: #439f35;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2px;
@@ -187,13 +183,13 @@ h4 {
   color: #fff;
 }
 
-.text--intro {
+.text-intro {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.75rem;
   color: #fff;
 }
 
-.text--button {
+.text-button {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.125rem;
   text-transform: uppercase;
@@ -201,45 +197,52 @@ h4 {
   color: #fff;
 }
 
-.text--source {
+.text-source {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 0.9375rem;
   color: #fff;
 }
 
-.text--wizard,
-.text--wizard--link {
+.text-wizard,
+.text-wizard__link {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 3.5rem;
   line-height: 6.5rem;
 }
 
-.text--wizard--link {
+.text-wizard__link {
   border-bottom: 0.125rem solid #439f35;
 }
 
-.text--body {
+.text-body {
   font-family: "Tiempos", "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-.text--body__small {
+.text-body-small {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
-.text--microtext {
+.text-microtext {
+  font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-microtext__bold {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text--large-number {
+.text-large-number {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 7.5rem;
@@ -247,12 +250,16 @@ h4 {
   letter-spacing: -0.15rem;
 }
 
-.text--counter {
+.text-counter {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.5rem;
 }
 
-.text--separate-link {
+.text-counter--bold {
+  font-weight: bold;
+}
+
+.text-separate-link {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -261,7 +268,7 @@ h4 {
   cursor: pointer;
 }
 
-.text--separate-link:hover {
+.text-separate-link:hover {
   border-bottom: 0.0625rem solid #000;
 }
 
@@ -273,18 +280,22 @@ h4 {
   font-weight: bold;
 }
 
-.card {
+.card-default {
   width: 20.25rem;
 }
 
-.card__image {
+.card-default--highlight {
+  background-color: #ededed;
+}
+
+.card-default__image {
   width: 100%;
   max-height: 11.375rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.card__text {
+.card-default__text {
   padding: 1rem;
 }
 

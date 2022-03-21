@@ -1,17 +1,17 @@
-<div class="card--event card--event--highlight background--edison">
+<div class="card--event card--event--highlight">
   <header class="card--event__header">
     {{> @icon--calendar-white}}
     <div class="card--event__main-info">
-      <span class="text--microtext">{{Date}}</span>
-      <span class="text--microtext text--regular">{{Location}}</span>
+      <span class="text-microtext__bold">{{Date}}</span>
+      <span class="text-microtext">{{Location}}</span>
     </div>
   </header>
   <div class="card--event__text-block">
-    <span class="text--microtext">{{Preline}}</span>
+    <span class="text-microtext__bold">{{Preline}}</span>
     <a href="{{to}}">
       <H3 class="text--primary">{{Headline}}</H3>
     </a>
-    <p class="text--microtext text--regular">{{Copy}}</p>
-    <span class="text--microtext text--regular text--wolf">{{Tags}}</span>
+    <p class="text-microtext">{{Copy}}</p>
+    <span class="text-microtext">{{Tags}}</span>
   </div>
 </div>
