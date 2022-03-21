@@ -34,51 +34,51 @@
   border-radius: 50%;
 }
 
-.background--primary {
+.background-color--primary {
   background-color: #439f35;
 }
 
-.background--secondary {
+.background-color--secondary {
   background-color: #e18537;
 }
 
-.background--ocean {
+.background-color--ocean {
   background-color: #79c7c3;
 }
 
-.background--coffee {
+.background-color--coffee {
   background-color: #2e271a;
 }
 
-.background--edison {
+.background-color--edison {
   background-color: #ededed;
 }
 
-.text--primary {
+.text-color--primary {
   color: #439f35;
 }
 
-.text--secondary {
+.text-color--secondary {
   color: #e18537;
 }
 
-.text--ocean {
+.text-color--ocean {
   color: #79c7c3;
 }
 
-.text--coffee {
+.text-color--coffee {
   color: #2e271a;
 }
 
-.text--dark {
+.text-color--dark {
   color: #000;
 }
 
-.text--bright {
+.text-color--bright {
   color: #fff;
 }
 
-.text--wolf {
+.text-color--wolf {
   color: #5a5a5a;
 }
 
