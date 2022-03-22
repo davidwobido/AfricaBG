@@ -1,6 +1,5 @@
 @import "../fonts/fonts";
 @import "../../components/atoms/colors/colors";
-@import "../../components/test/blockquote";
 @import "../../components/atoms/button/button";
 @import "../../components/atoms/icon/icon";
 @import "../../components/atoms/typography/typography";
@@ -9,6 +8,8 @@
 @import "../../components/molecules/card-event/card-event";
 @import "../../components/molecules/section-header/section-header";
 @import "../../components/molecules/pagination/pagination";
+@import "../../components/pages/test/test";
+@import "../bootstrap-grid/bootstrap-grid.scss";
 
 *,
 *::after,
