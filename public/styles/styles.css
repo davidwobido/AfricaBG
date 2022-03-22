@@ -291,10 +291,6 @@ h4 {
   padding: 1rem;
 }
 
-.card-facts {
-  width: 20.25rem;
-}
-
 .card-facts__number {
   padding: 1.5rem;
 }
@@ -435,8 +431,16 @@ h4 {
   text-decoration: none;
 }
 
-.highlight-content-slider__cards {
+.slider-highlight-content__cards {
   margin-bottom: 3rem;
+}
+
+.slider-facts__cards {
+  margin-bottom: 5rem;
+}
+
+.section {
+  margin-bottom: 10rem;
 }
 
 /*!

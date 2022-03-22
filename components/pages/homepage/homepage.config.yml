@@ -21,3 +21,8 @@ context:
     preline: "this is a Preline"
     headline: "I am the Headline"
     copy: "Copy / Body text Lorem Ipsum some more text."
+
+  card-facts:
+    copy: "3,51 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
+    number: "3,5"
+    color: "primary"
