@@ -1,5 +1,10 @@
-title: Card-Facts
+title: Slider facts
 status: wip
+
+context:
+  section-header:
+    headline: "Highlight Content"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren."
 
 variants:
   - name: default
@@ -14,18 +19,4 @@ variants:
       card-facts:
         color: "secondary"
         number: "10"
-        copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
-
-  - name: ocean
-    context:
-      card-facts:
-        color: "ocean"
-        number: "100"
-        copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
-
-  - name: coffee
-    context:
-      card-facts:
-        color: "coffee"
-        number: "0,1"
         copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
