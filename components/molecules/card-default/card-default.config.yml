@@ -2,7 +2,17 @@ title: Card
 status: wip
 
 context:
-  Image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
-  Preline: "this is a Preline"
-  Headline: "I am the Headline"
-  Copy: "Copy / Body text Lorem Ipsum some more text."
+  card-default:
+    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+    preline: "this is a Preline"
+    headline: "I am the Headline"
+    copy: "Copy / Body text Lorem Ipsum some more text."
+  card-default--highlight:
+    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+    preline: "this is a Preline"
+    headline: "I am the Headline"
+    copy: "Copy / Body text Lorem Ipsum some more text."
+  card-default--text:
+    preline: "this is a Preline"
+    headline: "I am the Headline"
+    copy: "Copy / Body text Lorem Ipsum some more text."

@@ -1,5 +1,6 @@
 title: Pagination
 
 context:
-  label: "Zu Afrika in Zahlen"
-  to: "www.init.de"
+  pagination:
+    label: "Zu Afrika in Zahlen"
+    to: "www.init.de"

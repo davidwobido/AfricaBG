@@ -2,9 +2,17 @@ title: Card
 status: wip
 
 context:
-  Date: "01.03.2021 bis 05.03.2021"
-  Location: "Leipzig, Dresden, Berlin"
-  Preline: "Markterschließungsprojekt"
-  Headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-  Copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-  Tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+  card-event:
+    date: "01.03.2021 bis 05.03.2021"
+    location: "Leipzig, Dresden, Berlin"
+    preline: "Markterschließungsprojekt"
+    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+  card-event--highlight:
+    date: "01.03.2021 bis 05.03.2021"
+    location: "Leipzig, Dresden, Berlin"
+    preline: "Markterschließungsprojekt"
+    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
