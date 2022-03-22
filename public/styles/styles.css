@@ -276,10 +276,6 @@ h4 {
   font-weight: bold;
 }
 
-.card-default {
-  width: 20.25rem;
-}
-
 .card-default--highlight {
   background-color: #ededed;
 }
@@ -437,6 +433,10 @@ h4 {
 .pagination a {
   color: #000;
   text-decoration: none;
+}
+
+.highlight-content-slider__cards {
+  margin-bottom: 3rem;
 }
 
 /*!
