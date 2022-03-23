@@ -432,11 +432,19 @@ h4 {
 }
 
 .slider-highlight-content__cards {
-  margin-bottom: 3rem;
+  margin-bottom: 1.125rem;
+}
+
+.slider-highlight-content__col {
+  margin-bottom: 1.875rem;
 }
 
 .slider-facts__cards {
-  margin-bottom: 5rem;
+  margin-bottom: 3.125rem;
+}
+
+.slider-facts__col {
+  margin-bottom: 1.875rem;
 }
 
 .section {
