@@ -26,3 +26,19 @@ context:
     copy: "3,51 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
     number: "3,5"
     color: "primary"
+
+  card-event--highlight:
+    date: "01.03.2021 bis 05.03.2021"
+    location: "Leipzig, Dresden, Berlin"
+    preline: "Markterschließungsprojekt"
+    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+
+  card-event:
+    date: "01.03.2021 bis 05.03.2021"
+    location: "Leipzig, Dresden, Berlin"
+    preline: "Markterschließungsprojekt"
+    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
