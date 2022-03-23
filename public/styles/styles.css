@@ -355,7 +355,6 @@ h4 {
 }
 
 .card-event {
-  width: 28rem;
   padding: 1.5rem;
 }
 
@@ -444,6 +443,14 @@ h4 {
 }
 
 .slider-facts__col {
+  margin-bottom: 1.875rem;
+}
+
+.slider-events__cards {
+  margin-bottom: 1.125rem;
+}
+
+.slider-events__col {
   margin-bottom: 1.875rem;
 }
 
