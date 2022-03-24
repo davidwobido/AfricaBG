@@ -1,0 +1,10 @@
+title: testcomp
+
+context:
+  datas:
+    - someName: "David"
+      somePara: "Hi I'm Lorem Ipsum"
+    - someName: "Ralf"
+      somePara: "I'm Lorem Ipsum"
+    - someName: "Ralf"
+      somePara: "I'm Lorem Ipsum"
