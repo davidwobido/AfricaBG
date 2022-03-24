@@ -1,18 +1,26 @@
 title: Card
 status: wip
 
-context:
-  card-default:
-    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
-  card-default--highlight:
-    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
-  card-default--text:
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
+variants:
+  - name: "Highlight + Img"
+    context:
+      image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+      preline: "Taxonomie Contenttyp"
+      headline: "I am the Headline"
+      copy: "Copy / Body text Lorem Ipsum some more text."
+      highlight: true
+
+  - name: "default"
+    context:
+      image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+      preline: "Taxonomie Contenttyp"
+      headline: "I am the Headline"
+      copy: "Copy / Body text Lorem Ipsum some more text."
+      highlight: false
+
+  - name: "No img"
+    context:
+      preline: "Taxonomie Contenttyp"
+      headline: "I am the Headline"
+      copy: "Copy / Body text Lorem Ipsum some more text."
+      highlight: false

@@ -278,6 +278,11 @@ h4 {
 
 .card-default--highlight {
   background-color: #ededed;
+  padding: 1rem;
+}
+
+.card-default--with-img {
+  padding-top: 1rem;
 }
 
 .card-default__image {
@@ -285,10 +290,6 @@ h4 {
   max-height: 11.375rem;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.card-default__text {
-  padding: 1rem;
 }
 
 .card-facts__number {

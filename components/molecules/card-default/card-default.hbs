@@ -1,8 +1,18 @@
-<div class="card-default">
-  <img src="{{card-default.image}}" class="card-default__image" />
-  <div class="card-default__text">
-    <span class="text-microtext__bold">{{card-default.preline}}</span>
-    <H3>{{card-default.headline}}</H3>
-    <p class="text-body-small">{{card-default.copy}}</p>
+<div>
+  {{#if image}}
+      <img src="{{image}}" class="card-default__image" />
+  {{/if}}
+  {{#if highlight}}
+    <div class= "card-default--highlight">
+  {{else}}
+    {{#if image}}
+      <div class="card-default--with-img">
+    {{else}}
+      <div>
+    {{/if}}
+  {{/if}}
+    <span class="text-microtext__bold">{{preline}}</span>
+    <H3>{{headline}}</H3>
+    <p class="text-body-small">{{copy}}</p>
   </div>
 </div>
