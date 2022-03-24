@@ -3,21 +3,29 @@ status: wip
 
 context:
   section-header:
-    headline: "hi"
-    text: "this is a test text"
+    headline: "Aktuelle Afrika-Veranstaltungen"
+    text: "Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
-  card-event--highlight:
-    date: "01.03.2021 bis 05.03.2021"
-    location: "Leipzig, Dresden, Berlin"
-    preline: "Markterschließungsprojekt"
-    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+  data-slider-events:
+    - highlight: false
+      date: "01.03.2021 bis 05.03.2021"
+      location: "Leipzig, Dresden, Berlin"
+      preline: "Markterschließungsprojekt"
+      headline: "Informationsreise Côte d’Ivoire, Senegal, Ghana, Kenia, Äthiopien, Uganda, Ruanda, Tansania - Maschinen- und Anlagenbau"
+      copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
 
-  card-event:
-    date: "01.03.2021 bis 05.03.2021"
-    location: "Leipzig, Dresden, Berlin"
-    preline: "Markterschließungsprojekt"
-    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+    - highlight: false
+      date: "31.03.2021"
+      location: "München, Dresden, Berlin"
+      preline: "Informationsveranstaltung"
+      headline: "Bioenergie, insbesondere Waste-to-Energy, in Nigeria"
+      tags: "Nigeria | Äthiopien | Nahrungsmittelindustrie | Maschinenbau | Digitalisierung"
+
+    - highlight: true
+      date: "30.06.2021"
+      location: "Bamako"
+      preline: "German Training Week"
+      headline: "Projektentwicklung in Côte d’Ivoire"
+      copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      tags: "Côte d’Ivoire | Nahrungsmittelindustrie | Digitalisierung"

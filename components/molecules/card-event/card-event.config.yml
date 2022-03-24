@@ -1,18 +1,23 @@
-title: Card
+title: Card-Event
 status: wip
 
-context:
-  card-event:
-    date: "01.03.2021 bis 05.03.2021"
-    location: "Leipzig, Dresden, Berlin"
-    preline: "Markterschließungsprojekt"
-    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
-  card-event--highlight:
-    date: "01.03.2021 bis 05.03.2021"
-    location: "Leipzig, Dresden, Berlin"
-    preline: "Markterschließungsprojekt"
-    headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
-    tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+variants:
+  - name: "default"
+    context:
+      highlight: false
+      date: "01.03.2021 bis 05.03.2021"
+      location: "Leipzig, Dresden, Berlin"
+      preline: "Markterschließungsprojekt"
+      headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
+
+  - name: "highlight"
+    context:
+      highlight: true
+      date: "01.03.2021 bis 05.03.2021"
+      location: "Leipzig, Dresden, Berlin"
+      preline: "Markterschließungsprojekt"
+      headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
+      tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
