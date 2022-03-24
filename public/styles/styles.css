@@ -454,6 +454,79 @@ h4 {
   margin-bottom: 1.875rem;
 }
 
+.hero-container {
+  padding: 0 !important;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+}
+
+.hero__img {
+  background-image: url("/images/oc_brand-image.png");
+  background-color: darkgreen;
+  background-size: cover;
+  opacity: 0.75;
+  height: 100vh;
+}
+
+.hero__text {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  width: 74.5%;
+}
+
+.hero__text h1 {
+  margin-bottom: 1rem;
+}
+
+.hero__text p {
+  margin-bottom: 3rem;
+}
+
+.hero__footer {
+  position: absolute;
+  bottom: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__footer * {
+  -webkit-box-flex: 0 !important;
+      -ms-flex-positive: 0 !important;
+          flex-grow: 0 !important;
+}
+
+.hero__footer span {
+  padding-left: 5rem !important;
+}
+
+.hero__footer:nth-child(2) {
+  padding-right: 5rem;
+}
+
+.hero__footer button {
+  border: 0;
+  background: none;
+}
+
+.hero__footer svg {
+  width: 2rem;
+}
+
 .section {
   margin-bottom: 10rem;
 }
