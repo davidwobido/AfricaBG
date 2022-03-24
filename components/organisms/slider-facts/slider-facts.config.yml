@@ -5,6 +5,10 @@ context:
   section-header:
     headline: "Wer hätte das gedacht?"
 
+  pagination:
+    label: "Zu Afrika in Zahlen"
+    to: "www.init.de"
+
   data-slider-facts:
     - color: "primary"
       number: "3,5"
