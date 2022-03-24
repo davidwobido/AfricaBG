@@ -133,10 +133,15 @@
 
 .icon-pause .a {
   fill: none;
-  stroke: #000;
+  stroke: #fff;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2px;
+}
+
+.icon-scroll * {
+  fill: #fff;
+  stroke: #fff;
 }
 
 h1,
@@ -290,6 +295,12 @@ h4 {
   max-height: 11.375rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.card__text span,
+.card__text h3 {
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .card-facts__number {
@@ -495,28 +506,22 @@ h4 {
 
 .hero__footer {
   position: absolute;
-  bottom: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  bottom: 3%;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.hero__footer * {
-  -webkit-box-flex: 0 !important;
-      -ms-flex-positive: 0 !important;
-          flex-grow: 0 !important;
+  padding: 0 5rem;
 }
 
 .hero__footer span {
-  padding-left: 5rem !important;
+  justify-self: flex-start;
 }
 
-.hero__footer:nth-child(2) {
-  padding-right: 5rem;
+.hero__footer :nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .hero__footer button {

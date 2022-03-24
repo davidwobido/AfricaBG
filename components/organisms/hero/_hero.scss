@@ -36,21 +36,17 @@
 
   &__footer {
     position: absolute;
-    bottom: 2.5rem;
-    display: flex;
+    bottom: 3%;
     width: 100%;
-    justify-content: space-between;
-
-    * {
-      flex-grow: 0 !important;
-    }
+    padding: 0 5rem;
 
     span {
-      padding-left: 5rem !important;
+      justify-self: flex-start;
     }
 
-    &:nth-child(2) {
-      padding-right: 5rem;
+    :nth-child(3) {
+      display: flex;
+      justify-content: flex-end;
     }
 
     button {

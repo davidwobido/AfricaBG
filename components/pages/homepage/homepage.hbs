@@ -1,24 +1,17 @@
 <div class="bootstrap-wrapper">
-    <div class="container-fluid">
-        <section class="row section section--slider-highlight-content">
-            <div class="col">
-                {{> @hero}}
-            </div>
-        </section>
-        <section class="row section section--slider-highlight-content">
-            <div class="col">
-                {{ render "@slider-highlight-content"}}
-            </div>
-        </section>
-        <section class="row section section--slider-facts">
-            <div class="col">
-                {{ render "@slider-facts"}}
-            </div>
-        </section>
-        <section class="row section section--slider-events">
-            <div class="col">
-                {{> @slider-events}}
-            </div>
-        </section>
-    </div>
+  <div class="container-fluid" style="padding: 0 !important;">
+    <section class="section">
+      {{render "@hero"}}
+    </section>
+    <section class="section">
+        {{render "@slider-highlight-content"}}
+      </div>
+    </section>
+    <section class="section">
+        {{render "@slider-facts"}}
+    </section>
+    <section class="section">
+        {{render "@slider-events"}}
+    </section>
+  </div>
 </div>

@@ -12,3 +12,11 @@
   max-height: 11.375rem;
   object-fit: cover;
 }
+
+.card__text {
+  span,
+  h3 {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
