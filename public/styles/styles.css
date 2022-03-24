@@ -532,6 +532,12 @@ h4 {
   margin-bottom: 1.875rem;
 }
 
+@media screen and (max-width: 768px) {
+  .slider-highlight-content__col {
+    margin-bottom: 4rem;
+  }
+}
+
 .slider-facts__cards {
   margin-bottom: 1.125rem;
 }
