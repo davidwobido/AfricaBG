@@ -4,10 +4,11 @@
             <div class="col">{{> @section-header}}</div>
         </div>
         <div class="row slider-highlight-content__cards">
-            <div class="col-xl-3 col-md-6 col-sm-12 slider-highlight-content__col">{{> @card-default--highlight}}</div>
-            <div class="col-xl-3 col-md-6 col-sm-12 slider-highlight-content__col">{{> @card-default}}</div>
-            <div class="col-xl-3 col-md-6 col-sm-12 slider-highlight-content__col">{{> @card-default--text}}</div>
-            <div class="col-xl-3 col-md-6 col-sm-12 slider-highlight-content__col">{{> @card-default}}</div>
+            {{#each data-slider-highlight-content}}
+                <div class="col-xl-3 col-md-6 col-sm-12 slider-highlight-content__col">
+                    {{> "@card-default"}} 
+                </div>
+            {{/each}}
         </div>
         <div class="row">
             <div class="col">{{> @pagination}}</div>

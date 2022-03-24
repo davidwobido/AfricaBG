@@ -1,17 +1,27 @@
-<div class="card-event background-color--edison">
+{{!-- There’s a better solution for sure --}}
+
+{{#if highlight}}
+  <div class="card-event card-event--highlight">
+{{else}}
+  <div class="card-event background-color--edison">
+{{/if}}
   <header class="card-event__header">
-    {{> @icon--calendar}}
+    {{#if highlight}}
+      {{> @icon--calendar-white}}
+    {{else}}
+      {{> @icon--calendar}}
+    {{/if}}
     <div class="card-event__main-info">
-      <span class="text-microtext__bold">{{card-event.date}}</span>
-      <span class="text-microtext">{{card-event.location}}</span>
+      <span class="text-microtext__bold">{{date}}</span>
+      <span class="text-microtext">{{location}}</span>
     </div>
   </header>
   <div class="card-event__text-block">
-    <span class="text-microtext__bold">{{card-event.preline}}</span>
-    <a href="{{card-event.to}}">
-      <H3 class="text--primary">{{card-event.headline}}</H3>
+    <span class="text-microtext__bold">{{preline}}</span>
+    <a href="{{to}}">
+      <H3 class="text--primary">{{headline}}</H3>
     </a>
-    <p class="text-microtext">{{card-event.copy}}</p>
-    <span class="text-microtext text-color--wolf">{{card-event.tags}}</span>
+    <p class="text-microtext">{{copy}}</p>
+    <span class="text-microtext text-color--wolf">{{tags}}</span>
   </div>
 </div>

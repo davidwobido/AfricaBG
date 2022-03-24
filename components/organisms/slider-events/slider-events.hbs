@@ -4,9 +4,11 @@
             <div class="col">{{> @section-header}}</div>
         </div>
         <div class="row slider-facts__cards">
-            <div class="col-xl-4 col-md-6 col-sm-12 slider-events__col">{{> @card-event--highlight}}</div>
-            <div class="col-xl-4 col-md-6 col-sm-12 slider-events__col">{{> @card-event}}</div>
-            <div class="col-xl-4 col-md-6 col-sm-12 slider-events__col">{{> @card-event}}</div>
+            {{#each data-slider-events}}
+                <div class="col-xl-4 col-md-6 col-sm-12 slider-events__col">
+                    {{> "@card-event"}}
+                </div>
+            {{/each}}
         </div>
         <div class="row">
             <div class="col">{{> @pagination}}</div>

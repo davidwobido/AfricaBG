@@ -5,19 +5,26 @@ context:
     headline: "Highlight Content"
     text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren."
 
-  card-default--highlight:
-    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
+  data-slider-highlight-content:
+    - image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
+      preline: "Taxonomie Contenttyp"
+      headline: "Nulla luctus pharetra vulputate tells mollis orci sed rhoncus"
+      copy: "Consectetur adipisifwcing elit, sed eiusmod tempor incididunt ut labore et dolore."
+      highlight: true
 
-  card-default--text:
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
+    - preline: "Taxonomie Contenttyp"
+      headline: "Nulla luctus pharetra vulputate tells mollis orci sed rhoncus"
+      copy: "Consectetur adipisifwcing elit, sed eiusmod tempor incididunt ut labore et dolore."
+      highlight: false
 
-  card-default:
-    image: "/images/gemasolar-fuentes-de-andalucia-andalousie-espagne-photo-01.png"
-    preline: "this is a Preline"
-    headline: "I am the Headline"
-    copy: "Copy / Body text Lorem Ipsum some more text."
+    - image: "/images/pexels-photo-2101135.png"
+      preline: "Taxonomie Contenttyp"
+      headline: "Nulla luctus pharetra vulputate tells mollis orci sed rhoncus"
+      copy: "Consectetur adipisifwcing elit, sed eiusmod tempor incididunt ut labore et dolore."
+      highlight: false
+
+    - image: "/images/Bild 33@2x.png"
+      preline: "Taxonomie Contenttyp"
+      headline: "Nulla luctus pharetra vulputate tells mollis orci sed rhoncus"
+      copy: "Consectetur adipisifwcing elit, sed eiusmod tempor incididunt ut labore et dolore."
+      highlight: false

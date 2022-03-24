@@ -42,9 +42,16 @@
 .icon-pause {
   .a {
     fill: none;
-    stroke: $color-dark;
+    stroke: $color-bright;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 2px;
+  }
+}
+
+.icon-scroll {
+  * {
+    fill: $color-bright;
+    stroke: $color-bright;
   }
 }
