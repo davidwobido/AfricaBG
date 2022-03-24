@@ -442,6 +442,76 @@ h4 {
   text-decoration: none;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.6rem 4.75rem 1.4rem;
+  z-index: 2;
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 1.2rem 1rem 1.4rem;
+  }
+  .header__logo {
+    height: 1rem;
+  }
+  .header__navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__navbar svg {
+    display: none;
+  }
+}
+
+.header__logo {
+  height: 1.83rem;
+}
+
+.header__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__navbar > * {
+  margin-left: 1rem;
+}
+
+.header__navbar svg {
+  height: 2rem;
+}
+
+.header__burger {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.header__burger div {
+  width: 2rem;
+  border-top: 0.125rem solid #000;
+  margin-bottom: 0.43rem;
+}
+
+.header__burger div:last-child {
+  margin-bottom: 0rem;
+}
+
 .slider-highlight-content__cards {
   margin-bottom: 1.125rem;
 }
@@ -508,7 +578,7 @@ h4 {
   position: absolute;
   bottom: 3%;
   width: 100%;
-  padding: 0 5rem;
+  padding: 0 4.75rem;
 }
 
 .hero__footer span {

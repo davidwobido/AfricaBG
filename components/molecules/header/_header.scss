@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-bright;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 4.75rem 1.4rem;
+  z-index: 2;
+
+  @media screen and (max-width: 576px) {
+    padding: 1.2rem 1rem 1.4rem;
+
+    &__logo {
+      height: 1rem;
+    }
+
+    &__navbar {
+      display: flex;
+      align-items: center;
+      svg {
+        display: none;
+      }
+    }
+  }
+
+  &__logo {
+    height: 1.83rem;
+  }
+
+  &__navbar {
+    display: flex;
+    & > * {
+      margin-left: 1rem;
+    }
+    svg {
+      height: 2rem;
+    }
+  }
+
+  &__burger {
+    border: none;
+    background: none;
+    padding: 0;
+
+    div {
+      width: 2rem;
+      border-top: 0.125rem solid $color-dark;
+      margin-bottom: 0.43rem;
+
+      &:last-child {
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}
