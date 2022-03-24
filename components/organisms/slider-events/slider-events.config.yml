@@ -1,15 +1,20 @@
-title: Card
+title: Slider events
 status: wip
 
 context:
-  card-event:
+  section-header:
+    headline: "hi"
+    text: "this is a test text"
+
+  card-event--highlight:
     date: "01.03.2021 bis 05.03.2021"
     location: "Leipzig, Dresden, Berlin"
     preline: "Markterschließungsprojekt"
     headline: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
     copy: "Manchmal gibt es eine Unterzeile oder einen Titelzusatz, die natürlich auch mal zwei Zeilen einnehmen kann"
     tags: "Côte d’Ivoire | Senegal | Ghana | Kenia | Äthiopien | Uganda | Tansania | Maschinen- und Anlagenbau"
-  card-event--highlight:
+
+  card-event:
     date: "01.03.2021 bis 05.03.2021"
     location: "Leipzig, Dresden, Berlin"
     preline: "Markterschließungsprojekt"

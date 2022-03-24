@@ -2,16 +2,16 @@
   <header class="card-event__header">
     {{> @icon--calendar-white}}
     <div class="card-event__main-info">
-      <span class="text-microtext__bold">{{Date}}</span>
-      <span class="text-microtext">{{Location}}</span>
+      <span class="text-microtext__bold">{{card-event--highlight.date}}</span>
+      <span class="text-microtext">{{card-event--highlight.location}}</span>
     </div>
   </header>
   <div class="card-event__text-block">
-    <span class="text-microtext__bold">{{Preline}}</span>
-    <a href="{{to}}">
-      <H3 class="text--primary">{{Headline}}</H3>
+    <span class="text-microtext__bold">{{card-event--highlight.preline}}</span>
+    <a href="{{card-event--highlight.to}}">
+      <H3 class="text--primary">{{card-event--highlight.headline}}</H3>
     </a>
-    <p class="text-microtext">{{Copy}}</p>
-    <span class="text-microtext">{{Tags}}</span>
+    <p class="text-microtext">{{card-event--highlight.copy}}</p>
+    <span class="text-microtext">{{card-event--highlight.tags}}</span>
   </div>
 </div>

@@ -1,0 +1,16 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col">{{> @section-header}}</div>
+        </div>
+        <div class="row slider-facts__cards">
+            {{#each data-slider-facts}}
+                <div class="col-xl-3 col-md-6 col-sm-12 slider-facts__col">
+                    {{> "@card-facts"}} 
+                </div>
+            {{/each}}
+        </div>
+        <div class="row">
+            <div class="col">{{> @pagination}}</div>
+        </div>
+</div>

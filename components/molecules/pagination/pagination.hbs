@@ -7,9 +7,11 @@
     {{> @icon--arrow-right}}
   </div>
   <div class="pagination__link">
-    <a href="{{to}}">
-      <span class="text-counter text-counter--bold">{{label}}</span>
-      {{> @icon--arrow-right}}
+    <a href="{{pagination.to}}">
+      <span class="text-counter text-counter--bold">{{pagination.label}}</span>
+      {{#if pagination.label}}
+        {{> @icon--arrow-right}}
+      {{/if}}
     </a>
   </div> 
 </div>

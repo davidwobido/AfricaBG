@@ -1,0 +1,64 @@
+.hero-container {
+  padding: 0 !important;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: $color-dark;
+
+  &__img {
+    background-image: url("/images/oc_brand-image.png");
+    background-color: darkgreen;
+    background-size: cover;
+    opacity: 0.75;
+    height: 100vh;
+  }
+
+  &__text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 74.5%;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 2.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    * {
+      flex-grow: 0 !important;
+    }
+
+    span {
+      padding-left: 5rem !important;
+    }
+
+    &:nth-child(2) {
+      padding-right: 5rem;
+    }
+
+    button {
+      border: 0;
+      background: none;
+    }
+    svg {
+      width: 2rem;
+    }
+  }
+}

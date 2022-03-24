@@ -1,0 +1,23 @@
+title: Slider facts
+status: wip
+
+context:
+  section-header:
+    headline: "Wer hätte das gedacht?"
+
+  data-slider-facts:
+    - color: "primary"
+      number: "3,5"
+      copy: "3,5 Prozent Durchschnittliches Wachstum afrikanischer Volkswirtschaften in 2018"
+
+    - color: "ocean"
+      number: "2"
+      copy: "Platz 2 für Deutschland als Importpartner Afrikas im weltweiten Vergleich"
+
+    - color: "secondary"
+      number: "25"
+      copy: "25 Jahre sind das durchschnittliche Alter der afrikanischen Bevölkerung in Lebensjahren."
+
+    - color: "coffee"
+      number: "3"
+      copy: "Nulla luctus pharetra vulputate tells mollis orci sed rhoncus"
