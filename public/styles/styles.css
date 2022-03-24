@@ -442,6 +442,40 @@ h4 {
   text-decoration: none;
 }
 
+.header {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  height: 1.83rem;
+}
+
+.header__navbar > * {
+  margin-left: 1rem;
+}
+
+.header__navbar svg {
+  height: 2rem;
+}
+
+.header__burger {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.header__burger div {
+  width: 2rem;
+  border-top: 0.125rem solid #000;
+  margin-bottom: 0.43rem;
+}
+
 .slider-highlight-content__cards {
   margin-bottom: 1.125rem;
 }
