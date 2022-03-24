@@ -2,6 +2,10 @@ title: Slider events
 status: wip
 
 context:
+  section-header:
+    headline: "hi"
+    text: "this is a test text"
+
   card-event--highlight:
     date: "01.03.2021 bis 05.03.2021"
     location: "Leipzig, Dresden, Berlin"
