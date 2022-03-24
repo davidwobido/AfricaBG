@@ -169,6 +169,12 @@ h1 {
   letter-spacing: 0.035rem;
 }
 
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 h2 {
   font-size: 2.5rem;
   letter-spacing: 0.0125rem;
@@ -188,6 +194,12 @@ h4 {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.75rem;
   color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .text-intro {
+    font-size: 1.45rem;
+  }
 }
 
 .text-button {
