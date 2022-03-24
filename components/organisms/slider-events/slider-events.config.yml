@@ -6,6 +6,10 @@ context:
     headline: "Aktuelle Afrika-Veranstaltungen"
     text: "Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
+  pagination:
+    label: "Alle Veranstaltungen"
+    to: "www.init.de"
+
   data-slider-events:
     - highlight: false
       date: "01.03.2021 bis 05.03.2021"

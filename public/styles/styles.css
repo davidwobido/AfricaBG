@@ -169,6 +169,12 @@ h1 {
   letter-spacing: 0.035rem;
 }
 
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 h2 {
   font-size: 2.5rem;
   letter-spacing: 0.0125rem;
@@ -188,6 +194,12 @@ h4 {
   font-family: "Bernina", Arial, Helvetica, Tahoma, sans-serif;
   font-size: 1.75rem;
   color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .text-intro {
+    font-size: 1.45rem;
+  }
 }
 
 .text-button {
@@ -413,7 +425,7 @@ h4 {
 
 .section-header div {
   width: 4rem;
-  border-top: 0.09375rem solid #439f35;
+  border-top: 0.2rem solid #439f35;
 }
 
 .section-header div,
@@ -518,6 +530,12 @@ h4 {
 
 .slider-highlight-content__col {
   margin-bottom: 1.875rem;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-highlight-content__col {
+    margin-bottom: 4rem;
+  }
 }
 
 .slider-facts__cards {
